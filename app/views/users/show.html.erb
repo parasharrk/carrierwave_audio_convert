@@ -3,7 +3,7 @@
 <p>
   <strong>Name:</strong>
   <%= @user.name %>
-  <%= image_tag @user.avatar.url(:thumb) %>
+  <%= image_tag @user.avatar.url %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
